@@ -1,0 +1,64 @@
+# data/queries/dev.yaml
+
+# ---------- LOOKUP (5) ----------
+- id: alpha-lookup-001
+  type: lookup
+  query: "What certifications does the Alpha Grill have?"
+
+- id: alpha-lookup-002
+  type: lookup
+  query: "Where are the RGB buttons located on the Alpha Grill?"
+
+- id: alpha-lookup-003
+  type: lookup
+  query: "What does the manipulator arm do on the Alpha Grill?"
+
+- id: alpha-lookup-004
+  type: lookup
+  query: "Which component serves as the emergency stop on the Alpha Grill?"
+
+- id: alpha-lookup-005
+  type: lookup
+  query: "What is the purpose of the Teflon Sheet on the griddle?"
+
+# ---------- PROCEDURAL (5) ----------
+- id: alpha-proc-001
+  type: procedural
+  query: "List the steps to replace the temperature sensor and apply thermal paste."
+
+- id: alpha-proc-002
+  type: procedural
+  query: "How do you remove and replace the RGB button panel (including the connector step)?"
+
+- id: alpha-proc-003
+  type: procedural
+  query: "How do you remove the motor cover at the inner end to access the harness connections?"
+
+- id: alpha-proc-004
+  type: procedural
+  query: "What are the steps to replace the motor harnesses from the side panel end?"
+
+- id: alpha-proc-005
+  type: procedural
+  query: "How do you replace the griddle at the motor joint?"
+
+# ---------- ESCALATE (5) ----------
+- id: alpha-esc-001
+  type: escalate
+  query: "Create a repair ticket: Emergency Stop Switch (circuit breaker) is stuck engaged; unit won’t power cycle."
+
+- id: alpha-esc-002
+  type: escalate
+  query: "Create a repair ticket: Temperature sensor reads erratically after cleaning; request replacement and thermal paste."
+
+- id: alpha-esc-003
+  type: escalate
+  query: "Create a repair ticket: RGB buttons are unresponsive; suspect defective RGB panel (JST connector) and need replacement."
+
+- id: alpha-esc-004
+  type: escalate
+  query: "Create a repair ticket: Motor harness damage around the back-end red/blue connections; need harness replacement at inner end."
+
+- id: alpha-esc-005
+  type: escalate
+  query: "Create a repair ticket: Griddle bolts at the motor joint are stripped; need assistance completing griddle replacement."

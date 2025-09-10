@@ -1,0 +1,6 @@
+rank-bm25
+sentence-transformers
+faiss-cpu      # optional; you can skip and do cosine manually with numpy
+numpy
+scikit-learn
+pydantic
